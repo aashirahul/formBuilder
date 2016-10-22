@@ -10,7 +10,7 @@ var processData = function (object) {
 		var iconName =reqdField.icon;
 		var idName = reqdField.id;
 		if(typeName=="select"){
-			var $newSelect = $(`<select name="select" class="dropDownBox"><option selected disabled> Select Language</option> </select>`);//how did you define newSelect variale
+			var $newSelect = $(`<select name="select" class="dropDownBox"><option selected disabled> Select Language...</option> </select>`);//how did you define newSelect variale
 			$(".input-blocks").append($newSelect);
 			for(count=0;count<reqdField.options.length;count++){
 				var optionName = reqdField.options[count]; 
